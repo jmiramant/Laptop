@@ -22,6 +22,8 @@ What it sets up
 * SSH public keys (for authenticating with services like Github and Heroku)
 * Homebrew (for managing operating system libraries)
 * Ack (for finding things in files)
+* Redis for storing key-value data
+* Updating Vim
 * Postgres (for storing relational data)
 * ImageMagick (for cropping and resizing images)
 * RVM (for managing versions of the Ruby programming language)
