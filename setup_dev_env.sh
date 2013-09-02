@@ -16,9 +16,15 @@ echo "Install git"
 echo "Installing Postgres, a good open source relational database ..."
   brew install postgres --no-python
 
-echo "Installing ack, a good way to search through files ..."
-  brew install ack
+fancy_echo "Installing Redis, a good key-value database ..."
+  brew install redis
 
+fancy_echo "Installing The Silver Searcher (better than ack or grep) to search the contents of files ..."
+  brew install the_silver_searcher
+
+fancy_echo "Installing vim from Homebrew to get the latest version ..."
+  brew install vim
+  
 echo "Installing ImageMagick, good for cropping and re-sizing images ..."
   brew install imagemagick
 
