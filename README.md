@@ -1,7 +1,7 @@
 Laptop
 ======
 
-Script to get your laptop set up as a development machine targeted for the developing for EverFi
+Script to get your laptop set up as a development machine for Rails, PG, Homebrew, Ack and more...
 
 This script is assuming that you are using a Mac running OS X 10.6 or higher.
 
@@ -14,7 +14,7 @@ OR Install XCode
 
 Then, run this one-liner:
 
-    bash < <(curl -s https://raw.github.com/EverFi/Laptop/master/setup_dev_env.sh)
+    bash < <(curl -s https://raw.github.com/jmiramant/Laptop/master/setup_dev_env.sh)
 
 What it sets up
 ---------------
@@ -34,4 +34,4 @@ What it sets up
 
 It should take about 30 minutes for everything to install, depending on your machine.
 
-This was forked from Thoughbot(see https://github.com/thoughtbot/laptop)  and basterdized for our own env. Thanks Thoughtbot!
+This was forked from the awesome guys at EverFi(see https://github.com/everfi) who forked it from Thoughbot(see https://github.com/thoughtbot/laptop). It's been basterdized for my own env. Thanks Cody, Colin and Thoughtbot!
